@@ -1,0 +1,35 @@
+package cn.mcwhirl.chapter.chapter2;
+
+import cn.mcwhirl.Tool;
+
+import java.util.Scanner;
+
+public class MyPhone {
+    Scanner type = new Scanner(System.in);
+    String brand;
+    String OS;
+    int CPU;
+    double cost;
+    public void PhoneData(){
+        System.out.println("请输入手机品牌");
+        brand = type.next();
+
+        System.out.println("请输入操作系统");
+        type.useDelimiter("\n");
+        OS = type.next();
+
+        System.out.println("请输入CPU数量");
+        Tool s = new Tool();
+        CPU = s.inputInt();
+
+        System.out.println("请输入价格");
+        Tool c = new Tool();
+        cost = c.inputDouble();
+
+        System.out.println("手机品牌："+brand);
+        System.out.println("操作系统："+OS);
+        System.out.println("CPU数："+CPU);
+        System.out.println("价格："+cost+"元");
+    }
+
+}
