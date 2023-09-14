@@ -46,9 +46,9 @@ public class Chapter2 {
         }
     }
 
-    private void work1(){
+    /*private void work1(){
 
-    }
+    }*/
 
     private void work2(){
         MyPhone phone = new MyPhone();
