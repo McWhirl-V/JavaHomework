@@ -5,12 +5,15 @@ import cn.mcwhirl.Tool;
 import java.util.Scanner;
 
 public class MyPhone {
-    Scanner type = new Scanner(System.in);
-    String brand;
-    String OS;
-    int CPU;
-    double cost;
-    public void PhoneData(){
+    private Scanner type = new Scanner(System.in);
+    private Tool tool = new Tool();
+
+    private String brand;
+    private String OS;
+    private int CPU;
+    private double cost;
+
+    public void phoneData() {
         System.out.println("请输入手机品牌");
         brand = type.next();
 
@@ -19,17 +22,15 @@ public class MyPhone {
         OS = type.next();
 
         System.out.println("请输入CPU数量");
-        Tool s = new Tool();
-        CPU = s.inputInt();
+        CPU = tool.inputInt();
 
         System.out.println("请输入价格");
-        Tool c = new Tool();
-        cost = c.inputDouble();
+        cost = tool.inputDouble();
 
-        System.out.println("手机品牌："+brand);
-        System.out.println("操作系统："+OS);
-        System.out.println("CPU数："+CPU);
-        System.out.println("价格："+cost+"元");
+        System.out.println("手机品牌：" + brand);
+        System.out.println("操作系统：" + OS);
+        System.out.println("CPU数：" + CPU);
+        System.out.println("价格：" + cost + "元");
     }
 
 }

@@ -4,27 +4,44 @@ import cn.mcwhirl.Menu;
 import cn.mcwhirl.Tool;
 
 public class Chapter2 {
-    public void ChapterMenu(){
-        while(true){
+    private Tool tool = new Tool();
 
+    public void chapterMenu() {
+        while (true) {
+            System.out.println(" ");
             System.out.println("------------------ 作业2 ------------------");
             System.out.println("请选择题目序号: 1——累加器； 2——实现手机信息的录入，并打印输出结果");
             System.out.println("请选择题目序号: 3——作业3； 4——作业4；");
             System.out.println("请选择题目序号: 5——作业5（猜拳游戏）； 6——作业6（日历）；");
             System.out.println("请选择题目序号: 7——作业7（学生成绩管理系统）；0——退出");
             System.out.println("-----------------------------------------");
-
-            Tool s = new Tool();
-            int option = s.inputInt();
-            if(option ==1){
-
-            }else if(option ==2){
-                work2();
-
-            }else if(option ==0){
-                Menu menu = new Menu();
-                menu.showMenu();
-                break;
+            int option = tool.inputInt();
+            switch (option) {
+                case 1:
+                    work1();
+                    break;
+                case 2:
+                    work2();
+                    break;
+                case 3:
+                    work3();
+                    break;
+                case 4:
+                    work4();
+                    break;
+                case 5:
+                    work5();
+                    break;
+                case 6:
+                    work6();
+                    break;
+                case 7:
+                    work7();
+                    break;
+                case 0:
+                    return;
+                default:
+                    System.out.println("无效的选项，请重新输入。");
             }
         }
     }
@@ -35,7 +52,7 @@ public class Chapter2 {
 
     private void work2(){
         MyPhone phone = new MyPhone();
-        phone.PhoneData();
+        phone.phoneData();
 
     }
 
@@ -52,7 +69,8 @@ public class Chapter2 {
     }
 
     private void work6(){
-
+        Month month = new Month();
+        month.month();
     }
 
     private void work7(){

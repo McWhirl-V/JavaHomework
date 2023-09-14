@@ -6,19 +6,24 @@ import cn.mcwhirl.Tool;
 import java.util.Scanner;
 
 public class Chapter1 {
-    public void ChapterMenu(){
-        while(true){
+    private Tool tool = new Tool(); // 将Tool实例化一次
+
+    public void chapterMenu() {
+        while (true) {
             System.out.println("请选择题目序号: 1——题目1； 2——题目2； 0——退出");
-            Tool s = new Tool();
-            int option = s.inputInt();
-            if(option ==1){
-                work1();
-            }else if(option ==2){
-                work2();
-            }else if(option ==0){
-                Menu menu = new Menu();
-                menu.showMenu();
-                break;
+
+            int option = tool.inputInt();
+            switch (option) {
+                case 1:
+                    work1();
+                    break;
+                case 2:
+                    work2();
+                    break;
+                case 0:
+                    return;
+                default:
+                    System.out.println("无效的选项，请重新输入。");
             }
         }
     }
