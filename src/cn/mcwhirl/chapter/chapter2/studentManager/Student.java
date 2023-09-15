@@ -6,6 +6,7 @@ public class Student {
     private double htmlGrade;
     private double sqlGrade;
 
+    //学生信息类
     public Student(String name,double javaGrade,double htmlGrade,double sqlGrade){
         this.name = name;
         this.javaGrade = javaGrade;

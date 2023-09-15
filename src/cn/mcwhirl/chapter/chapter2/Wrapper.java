@@ -18,7 +18,7 @@ public class Wrapper {
         System.out.println("16转换为2进制： "+ Integer.toBinaryString(16));
         System.out.println("16转换为16进制： "+ Integer.toHexString(16));
 
-        System.out.println("展示完毕，按任意键返回...");
+        System.out.println("展示完毕，输入任意键返回...");
         tool.inputInt();
 
     }

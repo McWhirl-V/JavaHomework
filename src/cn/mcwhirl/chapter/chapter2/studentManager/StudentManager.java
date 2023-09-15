@@ -13,6 +13,7 @@ public class StudentManager {
     private Scanner reader = new Scanner(System.in);
     private List<Student> students = new ArrayList<>();
 
+    //题目4初始菜单
     public void gradeMenu(){
         while(true) {
             System.out.println("-----学生信息管理系统-----");
@@ -40,6 +41,7 @@ public class StudentManager {
         }
     }
 
+    //选择排序方式
     public void sortAndPrintStudents() {
         while (true) {
             System.out.println("选择排序方式：1——升序；2——降序；3——退出");

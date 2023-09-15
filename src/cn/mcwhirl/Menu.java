@@ -4,9 +4,10 @@ import cn.mcwhirl.chapter.chapter1.Chapter1;
 import cn.mcwhirl.chapter.chapter2.Chapter2;
 
 public class Menu {
-
+    private final Tool tool = new Tool();
+    private final Chapter1 chapter1 = new Chapter1();
+    private final Chapter2 chapter2 = new Chapter2();
     public void showMenu() {
-        Tool tool = new Tool();
 
         while (true) {
             // 简化菜单打印
@@ -17,11 +18,9 @@ public class Menu {
             int option = tool.inputInt();
             switch (option) {
                 case 1:
-                    Chapter1 chapter1 = new Chapter1();
                     chapter1.chapterMenu();
                     break;
                 case 2:
-                    Chapter2 chapter2 = new Chapter2();
                     chapter2.chapterMenu();
                     break;
                 case 3:

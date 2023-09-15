@@ -10,7 +10,7 @@ public class Month {
     private Tool tool = new Tool();
 
     public void month() {
-        // Input year and month
+        // 输入年份日期
         System.out.print("请输入年份: ");
         int year = tool.inputInt();
         System.out.print("请输入月份 (1-12): ");
@@ -23,7 +23,7 @@ public class Month {
 
         printMonthCalendar(year, month);
 
-        System.out.println("展示完毕，按任意键返回...");
+        System.out.println("\n展示完毕，输入任意键返回...");
         tool.inputInt();
     }
 
