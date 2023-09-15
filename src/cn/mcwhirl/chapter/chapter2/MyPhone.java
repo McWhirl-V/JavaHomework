@@ -31,6 +31,9 @@ public class MyPhone {
         System.out.println("操作系统：" + OS);
         System.out.println("CPU数：" + CPU);
         System.out.println("价格：" + cost + "元");
+
+        System.out.println("展示完毕，按任意键返回...");
+        tool.inputInt();
     }
 
 }

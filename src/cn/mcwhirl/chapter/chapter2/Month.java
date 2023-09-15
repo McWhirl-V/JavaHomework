@@ -22,6 +22,9 @@ public class Month {
         }
 
         printMonthCalendar(year, month);
+
+        System.out.println("展示完毕，按任意键返回...");
+        tool.inputInt();
     }
 
     private void printMonthCalendar(int year, int month) {
