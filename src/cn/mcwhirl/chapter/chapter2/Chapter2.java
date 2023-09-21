@@ -1,6 +1,6 @@
 package cn.mcwhirl.chapter.chapter2;
 
-import cn.mcwhirl.Utils.Tool;
+import cn.mcwhirl.utils.Tool;
 import cn.mcwhirl.chapter.chapter2.work1.MyPhone;
 import cn.mcwhirl.chapter.chapter2.work2.Wrapper;
 import cn.mcwhirl.chapter.chapter2.work3.Month;

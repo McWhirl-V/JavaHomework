@@ -1,6 +1,6 @@
 package cn.mcwhirl.chapter.chapter2.work2;
 
-import cn.mcwhirl.Utils.Tool;
+import cn.mcwhirl.utils.Tool;
 
 public class Wrapper {
     private final Tool tool = new Tool();

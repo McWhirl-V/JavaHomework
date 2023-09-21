@@ -1,6 +1,6 @@
 package cn.mcwhirl.chapter.chapter2.work4;
 
-import cn.mcwhirl.Utils.Tool;
+import cn.mcwhirl.utils.Tool;
 
 import java.util.ArrayList;
 import java.util.Comparator;

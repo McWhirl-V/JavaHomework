@@ -1,6 +1,6 @@
 package cn.mcwhirl.menus;
 
-import cn.mcwhirl.Utils.Tool;
+import cn.mcwhirl.utils.Tool;
 import cn.mcwhirl.chapter.chapter1.Chapter1;
 import cn.mcwhirl.chapter.chapter2.Chapter2;
 

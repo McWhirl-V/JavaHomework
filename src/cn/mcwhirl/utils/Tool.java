@@ -1,4 +1,4 @@
-package cn.mcwhirl.Utils;
+package cn.mcwhirl.utils;
 
 import java.util.Scanner;
 
@@ -8,10 +8,13 @@ public class Tool {
     public int inputInt(){
         while(!reader.hasNextInt()){
             System.out.println("请输入整数");
-            reader.nextLine();
+            reader.nextLine(); // 这一行会消耗掉不匹配的输入
         }
-        return reader.nextInt();
+        int number = reader.nextInt();
+        reader.nextLine(); // 增加这一行来消耗掉换行符
+        return number;
     }
+
 
     public double inputDouble(){
         while(!reader.hasNextDouble()){
@@ -26,4 +29,9 @@ public class Tool {
             reader.close();
         }
     }
+
+    public String inputString() {
+        return reader.nextLine();
+    }
+
 }

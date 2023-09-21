@@ -1,6 +1,6 @@
 package cn.mcwhirl.chapter.chapter1;
 
-import cn.mcwhirl.Utils.Tool;
+import cn.mcwhirl.utils.Tool;
 
 public class Chapter1 {
     private final Tool tool = new Tool(); // 将Tool实例化一次
