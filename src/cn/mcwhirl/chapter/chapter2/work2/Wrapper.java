@@ -1,12 +1,9 @@
-package cn.mcwhirl.chapter.chapter2;
+package cn.mcwhirl.chapter.chapter2.work2;
 
-import cn.mcwhirl.Menu;
-import cn.mcwhirl.Tool;
-
-import java.util.Scanner;
+import cn.mcwhirl.Utils.Tool;
 
 public class Wrapper {
-    private Tool tool = new Tool();
+    private final Tool tool = new Tool();
     public void wrapperNum(){
         System.out.println("byte的数据总数： " + Math.pow(2,Byte.SIZE));
         System.out.println("byte的取值范围： " + Byte.MIN_VALUE +"~"+Byte.MAX_VALUE);

@@ -1,4 +1,4 @@
-package cn.mcwhirl.chapter.chapter2.studentManager;
+package cn.mcwhirl.chapter.chapter2.work4;
 
 public class Student {
     private String name;

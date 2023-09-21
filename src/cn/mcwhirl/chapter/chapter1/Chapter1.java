@@ -1,12 +1,9 @@
 package cn.mcwhirl.chapter.chapter1;
 
-import cn.mcwhirl.Menu;
-import cn.mcwhirl.Tool;
-
-import java.util.Scanner;
+import cn.mcwhirl.Utils.Tool;
 
 public class Chapter1 {
-    private Tool tool = new Tool(); // 将Tool实例化一次
+    private final Tool tool = new Tool(); // 将Tool实例化一次
 
     public void chapterMenu() {
         while (true) {

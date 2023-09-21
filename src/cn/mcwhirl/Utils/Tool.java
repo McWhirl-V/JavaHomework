@@ -1,9 +1,9 @@
-package cn.mcwhirl;
+package cn.mcwhirl.Utils;
 
 import java.util.Scanner;
 
 public class Tool {
-    private Scanner reader = new Scanner(System.in);
+    private final Scanner reader = new Scanner(System.in);
 
     public int inputInt(){
         while(!reader.hasNextInt()){

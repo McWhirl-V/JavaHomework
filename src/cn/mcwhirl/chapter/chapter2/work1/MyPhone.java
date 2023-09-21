@@ -1,12 +1,12 @@
-package cn.mcwhirl.chapter.chapter2;
+package cn.mcwhirl.chapter.chapter2.work1;
 
-import cn.mcwhirl.Tool;
+import cn.mcwhirl.Utils.Tool;
 
 import java.util.Scanner;
 
 public class MyPhone {
-    private Scanner type = new Scanner(System.in);
-    private Tool tool = new Tool();
+    private final Scanner type = new Scanner(System.in);
+    private final Tool tool = new Tool();
 
     public void phoneData() {
         System.out.println("请输入手机品牌");

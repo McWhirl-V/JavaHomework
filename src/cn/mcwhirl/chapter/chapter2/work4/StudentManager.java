@@ -1,6 +1,6 @@
-package cn.mcwhirl.chapter.chapter2.studentManager;
+package cn.mcwhirl.chapter.chapter2.work4;
 
-import cn.mcwhirl.Tool;
+import cn.mcwhirl.Utils.Tool;
 
 import java.util.ArrayList;
 import java.util.Comparator;

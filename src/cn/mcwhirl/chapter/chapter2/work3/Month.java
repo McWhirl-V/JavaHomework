@@ -1,9 +1,8 @@
-package cn.mcwhirl.chapter.chapter2;
+package cn.mcwhirl.chapter.chapter2.work3;
 
-import cn.mcwhirl.Tool;
+import cn.mcwhirl.Utils.Tool;
 
 import java.util.Calendar;
-import java.util.Scanner;
 
 public class Month {
 
