@@ -14,8 +14,6 @@ public class Tool {
         reader.nextLine(); // 增加这一行来消耗掉换行符
         return number;
     }
-
-
     public double inputDouble(){
         while(!reader.hasNextDouble()){
             System.out.println("请输入数字");

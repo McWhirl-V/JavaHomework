@@ -1,5 +1,6 @@
 package cn.mcwhirl.menus;
 
+import cn.mcwhirl.chapter.chapter3.Chapter3;
 import cn.mcwhirl.utils.Tool;
 import cn.mcwhirl.chapter.chapter1.Chapter1;
 import cn.mcwhirl.chapter.chapter2.Chapter2;
@@ -8,6 +9,7 @@ public class Menu {
     private final Tool tool = new Tool();
     private final Chapter1 chapter1 = new Chapter1();
     private final Chapter2 chapter2 = new Chapter2();
+    private final Chapter3 chapter3 = new Chapter3();
     public void showMenu() {
 
         while (true) {
@@ -25,7 +27,7 @@ public class Menu {
                     chapter2.chapterMenu();
                     break;
                 case 3:
-                    System.out.println("显示第3章的题目");
+                    chapter3.chapterMenu();
                     break;
                 case 4:
                     System.out.println("显示第4章的题目");
