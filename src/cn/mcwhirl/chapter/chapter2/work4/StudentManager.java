@@ -81,13 +81,13 @@ public class StudentManager {
             String name = reader.next();
 
             System.out.println("请输入" + name + "的java成绩:");
-            double javaGrade = reader.nextDouble();
+            double javaGrade = tool.inputDouble();
 
             System.out.println("请输入" + name + "的html成绩:");
-            double htmlGrade = reader.nextDouble();
+            double htmlGrade = tool.inputDouble();
 
             System.out.println("请输入" + name + "的sql成绩:");
-            double sqlGrade = reader.nextDouble();
+            double sqlGrade = tool.inputDouble();
 
             // 创建一个新的学生对象并添加到students列表中
             Student newStudent = new Student(name, javaGrade, htmlGrade, sqlGrade);

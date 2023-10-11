@@ -1,6 +1,7 @@
 package cn.mcwhirl.chapter.chapter3.work1;
 
 import java.util.Arrays;
+import java.util.List;
 
 public class Customer {
     private String name;
@@ -8,10 +9,10 @@ public class Customer {
     private Goods[] goods;
     private double total;
 
-    public Customer(String name, int age, Goods[] goods) {
+    public Customer(String name, int age, List<Goods> goods) {
         this.name = name;
         this.age = age;
-        this.goods = goods;
+        this.goods = goods.toArray(new Goods[0]);
         calculateTotal();
     }
 
@@ -29,6 +30,4 @@ public class Customer {
         System.out.println("总计：" + total);
     }
 
-    // Getters and setters...
-    // may need to add other methods as well.
 }
