@@ -1,5 +1,6 @@
 package cn.mcwhirl.utils;
 
+import java.math.BigDecimal;
 import java.util.Scanner;
 
 public class Tool {
@@ -20,6 +21,14 @@ public class Tool {
             reader.nextLine();
         }
         return reader.nextDouble();
+    }
+
+    public BigDecimal inputBigDecimal(){
+        while(!reader.hasNextBigDecimal()){
+            System.out.println("请输入数字");
+            reader.nextLine();
+        }
+        return reader.nextBigDecimal();
     }
 
     public void close() {

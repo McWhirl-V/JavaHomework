@@ -2,6 +2,7 @@ package cn.mcwhirl.chapter.chapter3.work1;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.SplittableRandom;
 
 public class Customer {
     private String name;
@@ -10,12 +11,24 @@ public class Customer {
     private double total;
 
     public Customer(String name, int age, List<Goods> goods) {
+        if (name == null || name.trim().isEmpty()) {
+            throw new IllegalArgumentException("名字不能为空");
+        }
+        if (age <= 0) {
+            throw new IllegalArgumentException("请输入正确的年龄");
+        }
+        if (goods == null || goods.isEmpty()) {
+            throw new IllegalArgumentException("商品不能为空");
+        }
         this.name = name;
         this.age = age;
         this.goods = goods.toArray(new Goods[0]);
         calculateTotal();
     }
 
+    public String getName(){
+        return name;
+    }
     private void calculateTotal() {
         total = Arrays.stream(goods).mapToDouble(g -> g.getTotalPrice()).sum();
     }

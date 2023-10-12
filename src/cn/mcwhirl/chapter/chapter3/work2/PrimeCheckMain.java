@@ -11,7 +11,7 @@ public class PrimeCheckMain {
     public static void main(String args[]){
         for (int i = 0; i < THREAD_COUNT; i++) {
             System.out.println("请输入一个大于12位的整数：");
-            String input = tool.inputString(); // Ensure this input is valid and large
+            String input = tool.inputString();
             BigInteger inputNumber = new BigInteger(input);
             Thread thread = new Thread(new PrimeRunnable(inputNumber));
             thread.start();
