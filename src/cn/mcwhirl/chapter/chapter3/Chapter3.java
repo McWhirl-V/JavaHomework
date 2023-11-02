@@ -1,6 +1,10 @@
 package cn.mcwhirl.chapter.chapter3;
 
 import cn.mcwhirl.chapter.chapter3.work1.CustomerGoodsAdmin;
+import cn.mcwhirl.chapter.chapter3.work2.PrimeCheckMain;
+import cn.mcwhirl.chapter.chapter3.work4.LeaderAchieve;
+import cn.mcwhirl.chapter.chapter3.work4.Worker;
+import cn.mcwhirl.chapter.chapter3.work5.StudentManage;
 import cn.mcwhirl.utils.Tool;
 
 public class Chapter3 {
@@ -28,6 +32,9 @@ public class Chapter3 {
                 case 4:
                     work4();
                     break;
+                case 5:
+                    work5();
+                    break;
                 case 0:
                     return;
                 default:
@@ -46,8 +53,22 @@ public class Chapter3 {
     }
 
     private void work3() {
+        PrimeCheckMain main = new PrimeCheckMain();
     }
 
     private void work4() {
+        Worker worker=new Worker("工人");
+        char []chs={'A','B','C','D','E'};
+        worker.start();
+        for (int i = 0; i <5; i++) {
+            LeaderAchieve leader=new LeaderAchieve("领导"+chs[i]);
+            worker.leaders.add(leader);
+            worker.receiveTask(worker.leaders.get(i),"任务"+chs[i]);
+        }
+    }
+
+    private void work5() {
+        StudentManage manager = new StudentManage();
+        manager.showMenu();
     }
 }
