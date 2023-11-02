@@ -40,6 +40,7 @@ public class CustomerGoodsAdmin {
             System.out.println("------------查询顾客购买信息-----------");
             System.out.println("1. 通过姓名查询信息 --> 1");
             System.out.println("2. 打印所有购买信息 --> 2");
+            System.out.println("3. 对所有信息按价格排序 --> 3");
             System.out.println("3. 返回 --> 0");
             System.out.println("-----------------------------------------");
 
@@ -50,6 +51,9 @@ public class CustomerGoodsAdmin {
                     break;
                 case 2:
                     print();
+                    break;
+                case 3:
+                    sortCustomersByTotalSpending();
                     break;
                 case 0:
                     return;
@@ -120,10 +124,17 @@ public class CustomerGoodsAdmin {
         }
     }
 
+    public void sortCustomersByTotalSpending() {
+        customers.sort((c1, c2) -> Double.compare(c2.getTotal(), c1.getTotal()));  // 从大到小排序
+        System.out.println("已按照总消费金额排序客户信息。");
+    }
+
+
 
     public void print() {
         customers.forEach(Customer::print);
     }
+
     public void searchByName(){
         System.out.println("输入顾客姓名");
         String name = tool.inputString();

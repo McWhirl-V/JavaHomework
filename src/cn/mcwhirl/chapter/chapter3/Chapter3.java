@@ -2,9 +2,10 @@ package cn.mcwhirl.chapter.chapter3;
 
 import cn.mcwhirl.chapter.chapter3.work1.CustomerGoodsAdmin;
 import cn.mcwhirl.chapter.chapter3.work2.PrimeCheckMain;
+import cn.mcwhirl.chapter.chapter3.work3.StoreHouse;
 import cn.mcwhirl.chapter.chapter3.work4.LeaderAchieve;
 import cn.mcwhirl.chapter.chapter3.work4.Worker;
-import cn.mcwhirl.chapter.chapter3.work5.StudentManage;
+import cn.mcwhirl.chapter.chapter3.work5.StudentManager;
 import cn.mcwhirl.utils.Tool;
 
 public class Chapter3 {
@@ -16,7 +17,8 @@ public class Chapter3 {
             System.out.println("请选择题目序号: 1 —— 客户选购信息管理系统；");
             System.out.println("请选择题目序号: 2 —— 素数的多线程判定；");
             System.out.println("请选择题目序号: 3 —— 仓库进货/出货系统；");
-            System.out.println("请选择题目序号: 4 —— 回调；0 —— 退出");
+            System.out.println("请选择题目序号: 4 —— 回调；");
+            System.out.println("请选择题目序号: 5 —— 学生信息的增删改查；0 —— 退出");
             System.out.println("-----------------------------------------");
             int option = tool.inputInt();
             switch (option) {
@@ -50,10 +52,13 @@ public class Chapter3 {
     }
 
     private void work2() {
+        PrimeCheckMain main = new PrimeCheckMain();
+        main.start();
     }
 
     private void work3() {
-        PrimeCheckMain main = new PrimeCheckMain();
+        StoreHouse storeHouse = new StoreHouse();
+        storeHouse.start();
     }
 
     private void work4() {
@@ -68,7 +73,7 @@ public class Chapter3 {
     }
 
     private void work5() {
-        StudentManage manager = new StudentManage();
+        StudentManager manager = new StudentManager();
         manager.showMenu();
     }
 }

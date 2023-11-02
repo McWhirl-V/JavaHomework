@@ -67,7 +67,7 @@ public class StudentManager {
     }
 
     private void printFormattedGrades(List<Student> studentsList) {
-        System.out.println("姓名\tjava\t\thtml\t\tsql\t\t总分\t\t平均分");
+        System.out.println("姓名\t\tjava\t\thtml\t\tsql\t\t总分\t\t平均分");
         for (Student student : studentsList) {
             System.out.printf("%s\t%.2f\t\t%.2f\t\t%.2f\t\t%.2f\t\t%.2f%n",
                     student.getName(), student.getJavaGrade(), student.getHtmlGrade(),

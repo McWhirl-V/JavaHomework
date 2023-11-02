@@ -2,7 +2,6 @@ package cn.mcwhirl.chapter.chapter3.work1;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.SplittableRandom;
 
 public class Customer {
     private String name;
@@ -42,5 +41,11 @@ public class Customer {
         }
         System.out.println("总计：" + total);
     }
+
+    // 在Customer类中
+    public double getTotal() {
+        return total;
+    }
+
 
 }

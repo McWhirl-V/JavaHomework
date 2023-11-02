@@ -27,8 +27,9 @@ public class MyPhone {
         System.out.println("CPU数：" + CPU);
         System.out.println("价格：" + cost + "元");
 
-        System.out.println("展示完毕，输入任意键返回...");
-        tool.inputInt();
+        System.out.println("\n展示完毕，按回车键返回...");
+
+        tool.inputString();  // 读取一行字符串，即按下回车键后返回
     }
 
 }

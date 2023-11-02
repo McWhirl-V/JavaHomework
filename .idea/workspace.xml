@@ -5,16 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9be67637-21d1-4936-9be1-2a15c529baee" name="Changes" comment="修复作业3-1">
-      <change afterPath="$PROJECT_DIR$/src/cn/mcwhirl/chapter/chapter3/work3/WareHouseMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/mcwhirl/chapter/chapter3/work3/Warehouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/mcwhirl/chapter/chapter3/work4/Leader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/mcwhirl/chapter/chapter3/work4/LeaderAchieve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/mcwhirl/chapter/chapter3/work4/Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/mcwhirl/chapter/chapter3/work5/FileAccess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/mcwhirl/chapter/chapter3/work5/StudentInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/mcwhirl/chapter/chapter3/work5/StudentManage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/mcwhirl/chapter/chapter3/work3/StoreHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/mcwhirl/chapter/chapter3/work5/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/mcwhirl/chapter/chapter3/work5/StudentManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaChapter/cn/mcwhirl/chapter/chapter2/Chapter2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaChapter/cn/mcwhirl/chapter/chapter2/Chapter2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaChapter/cn/mcwhirl/chapter/chapter2/work1/MyPhone.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaChapter/cn/mcwhirl/chapter/chapter2/work1/MyPhone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaChapter/cn/mcwhirl/chapter/chapter2/work2/Wrapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaChapter/cn/mcwhirl/chapter/chapter2/work2/Wrapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaChapter/cn/mcwhirl/chapter/chapter2/work4/StudentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaChapter/cn/mcwhirl/chapter/chapter2/work4/StudentManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaChapter/cn/mcwhirl/chapter/chapter3/Chapter3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaChapter/cn/mcwhirl/chapter/chapter3/Chapter3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaChapter/cn/mcwhirl/chapter/chapter3/work1/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaChapter/cn/mcwhirl/chapter/chapter3/work1/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaChapter/cn/mcwhirl/chapter/chapter3/work1/CustomerGoodsAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaChapter/cn/mcwhirl/chapter/chapter3/work1/CustomerGoodsAdmin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaChapter/cn/mcwhirl/chapter/chapter3/work2/PrimeCheckMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaChapter/cn/mcwhirl/chapter/chapter3/work2/PrimeCheckMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaChapter/cn/mcwhirl/chapter/chapter3/work3/PurchasePoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaChapter/cn/mcwhirl/chapter/chapter3/work3/SalesPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaChapter/cn/mcwhirl/chapter/chapter3/work3/WareHouseMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaChapter/cn/mcwhirl/chapter/chapter3/work3/Warehouse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/mcwhirl/chapter/chapter2/Chapter2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/mcwhirl/chapter/chapter2/Chapter2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/mcwhirl/chapter/chapter2/work1/MyPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/mcwhirl/chapter/chapter2/work1/MyPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/mcwhirl/chapter/chapter2/work2/Wrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/mcwhirl/chapter/chapter2/work2/Wrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/mcwhirl/chapter/chapter2/work4/StudentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/mcwhirl/chapter/chapter2/work4/StudentManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/mcwhirl/chapter/chapter3/Chapter3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/mcwhirl/chapter/chapter3/Chapter3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/mcwhirl/chapter/chapter3/work1/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/mcwhirl/chapter/chapter3/work1/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/mcwhirl/chapter/chapter3/work1/CustomerGoodsAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/mcwhirl/chapter/chapter3/work1/CustomerGoodsAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/mcwhirl/chapter/chapter3/work2/PrimeCheckMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/mcwhirl/chapter/chapter3/work2/PrimeCheckMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/mcwhirl/chapter/chapter3/work3/WareHouseMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/mcwhirl/chapter/chapter3/work3/Warehouse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/mcwhirl/chapter/chapter3/work5/FileAccess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/mcwhirl/chapter/chapter3/work5/StudentInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/mcwhirl/chapter/chapter3/work5/StudentManage.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +177,7 @@
       <workItem from="1698306801512" duration="75000" />
       <workItem from="1698306919175" duration="1994000" />
       <workItem from="1698397049468" duration="109000" />
-      <workItem from="1698902382986" duration="1444000" />
+      <workItem from="1698902382986" duration="6359000" />
     </task>
     <task id="LOCAL-00001" summary="老师让我多建几个包，看起来更正规，然后作业2的题目4有bug，正在修复">
       <option name="closed" value="true" />
@@ -192,7 +211,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697101146360</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="修复作业3-1">
+      <option name="closed" value="true" />
+      <created>1698903837651</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698903837651</updated>
+    </task>
+    <task id="LOCAL-00006" summary="修复作业3-1">
+      <option name="closed" value="true" />
+      <created>1698903859479</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698903859479</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

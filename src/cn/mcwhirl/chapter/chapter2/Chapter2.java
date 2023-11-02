@@ -1,5 +1,6 @@
 package cn.mcwhirl.chapter.chapter2;
 
+import cn.mcwhirl.menus.Menu;
 import cn.mcwhirl.utils.Tool;
 import cn.mcwhirl.chapter.chapter2.work1.MyPhone;
 import cn.mcwhirl.chapter.chapter2.work2.Wrapper;
@@ -33,7 +34,8 @@ public class Chapter2 {
                     work4();
                     break;
                 case 0:
-                    return;
+                    Menu menu = new Menu();
+                    menu.showMenu();
                 default:
                     System.out.println("无效的选项，请重新输入。");
             }
