@@ -16,7 +16,6 @@ public class StoreHouse {
     private static final int NUM_PURCHASE_POINTS = 2;
 
     private int[] stock;
-    int quantitySold = (int) (Math.random() * 4) + 1;
     private Object[] productLocks;
     private ExecutorService salesExecutor;
     private ExecutorService purchaseExecutor;

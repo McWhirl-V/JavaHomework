@@ -1,6 +1,7 @@
 package cn.mcwhirl.menus;
 
 import cn.mcwhirl.chapter.chapter3.Chapter3;
+import cn.mcwhirl.chapter.chapter4.Chapter4;
 import cn.mcwhirl.utils.Tool;
 import cn.mcwhirl.chapter.chapter1.Chapter1;
 import cn.mcwhirl.chapter.chapter2.Chapter2;
@@ -10,10 +11,10 @@ public class Menu {
     private final Chapter1 chapter1 = new Chapter1();
     private final Chapter2 chapter2 = new Chapter2();
     private final Chapter3 chapter3 = new Chapter3();
+    private final Chapter4 chapter4 = new Chapter4();
     public void showMenu() {
 
         while (true) {
-            // 简化菜单打印
             for (int i = 1; i <= 5; i++) {
                 System.out.println("请选择作业号：" + i + "——作业" + i + "； 0——退出");
             }
@@ -30,7 +31,7 @@ public class Menu {
                     chapter3.chapterMenu();
                     break;
                 case 4:
-                    System.out.println("显示第4章的题目");
+                    chapter4.chapterMenu();
                     break;
                 case 5:
                     System.out.println("显示第5章的题目");
